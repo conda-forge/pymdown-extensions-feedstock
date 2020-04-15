@@ -1,5 +1,5 @@
 {% set name = "pymdown-extensions" %}
-{% set version = "6.0" %}
+{% set version = "7.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6cf0cf36b5a03b291ace22dc2f320f4789ce56fbdb6635a3be5fadbf5d7694dd
+  sha256: d27a8bc8bb7ecac589e832465dbefe24d7fedd9792636c6d0ac521e5045bedc0
 
 build:
   number: 0
@@ -19,7 +19,7 @@ requirements:
     - pip
     - python
   run:
-    - markdown >=3.0.1
+    - markdown >=3.2
     - python
 
 test:
@@ -30,7 +30,7 @@ about:
   home: https://github.com/facelessuser/pymdown-extensions
   license: MIT
   license_family: MIT
-  license_file: LICENSE.md 
+  license_file: LICENSE.md
   summary: Extension pack for Python Markdown.
   doc_url: https://facelessuser.github.io/pymdown-extensions/
   dev_url: https://github.com/facelessuser/pymdown-extensions
@@ -38,3 +38,5 @@ about:
 extra:
   recipe-maintainers:
     - monaldoj
+    - ewels
+    - maxibor
