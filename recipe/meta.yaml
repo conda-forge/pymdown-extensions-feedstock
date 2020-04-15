@@ -30,7 +30,7 @@ about:
   home: https://github.com/facelessuser/pymdown-extensions
   license: MIT
   license_family: MIT
-  license_file: LICENSE.md 
+  license_file: LICENSE.md
   summary: Extension pack for Python Markdown.
   doc_url: https://facelessuser.github.io/pymdown-extensions/
   dev_url: https://github.com/facelessuser/pymdown-extensions
@@ -38,3 +38,5 @@ about:
 extra:
   recipe-maintainers:
     - monaldoj
+    - ewels
+    - maxibor
