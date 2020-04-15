@@ -19,7 +19,7 @@ requirements:
     - pip
     - python
   run:
-    - markdown >=3.0.1
+    - markdown >=3.2
     - python
 
 test:
