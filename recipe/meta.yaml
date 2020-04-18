@@ -1,18 +1,18 @@
 {% set name = "pymdown-extensions" %}
-{% set version = "7.0" %}
+{% set version = "7.1" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d27a8bc8bb7ecac589e832465dbefe24d7fedd9792636c6d0ac521e5045bedc0
+  sha256: 5bf93d1ccd8281948cd7c559eb363e59b179b5373478e8a7195cf4b78e3c11b6
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
