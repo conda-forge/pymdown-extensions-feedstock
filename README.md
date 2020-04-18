@@ -116,5 +116,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@ewels](https://github.com/ewels/)
+* [@maxibor](https://github.com/maxibor/)
 * [@monaldoj](https://github.com/monaldoj/)
 
