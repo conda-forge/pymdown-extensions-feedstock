@@ -21,6 +21,7 @@ requirements:
   run:
     - markdown >=3.2
     - python
+    - pep562 # Only required for archived release of version 6.2. Can be removed afterwards.
 
 test:
   imports:
