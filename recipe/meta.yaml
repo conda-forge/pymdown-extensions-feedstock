@@ -1,5 +1,5 @@
 {% set name = "pymdown-extensions" %}
-{% set version = "8.1.1" %}
+{% set version = "8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 632371fa3bf1b21a0e3f4063010da59b41db049f261f4c0b0872069a9b6d1735
+  sha256: b6daa94aad9e1310f9c64c8b1f01e4ce82937ab7eb53bfc92876a97aca02a6f4
 
 build:
   number: 0
@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - markdown >=3.2
-    - python
+    - python >=3.6
 
 test:
   imports:
