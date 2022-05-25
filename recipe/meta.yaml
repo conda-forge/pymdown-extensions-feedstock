@@ -10,7 +10,7 @@ source:
   # FIXME:
   # The above url did not work for version 9.4.
   # If it works in future it should be used in preference to the hard-coded url below.
-  url: https://files.pythonhosted.org/packages/62/78/d8390279ea0f9c627b2594497cb5d969e37ac81a3d0fd14803a856832788/pymdown_extensions-9.4.tar.gz
+  url: https://github.com/facelessuser/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
   sha256: 1baa22a60550f731630474cad28feb0405c8101f1a7ddc3ec0ed86ee510bcc43
 
 build:
