@@ -11,7 +11,7 @@ source:
   # The above url did not work for version 9.4.
   # If it works in future it should be used in preference to the hard-coded url below.
   url: https://github.com/facelessuser/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 1baa22a60550f731630474cad28feb0405c8101f1a7ddc3ec0ed86ee510bcc43
+  sha256: bb7dad544652b3c98a3318c94609e8f3226d42b63e667d594c545d9eba9bf83f
 
 build:
   number: 0
