@@ -1,13 +1,17 @@
 {% set name = "pymdown-extensions" %}
-{% set version = "9.3" %}
+{% set version = "9.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a80553b243d3ed2d6c27723bcd64ca9887e560e6f4808baa96f36e93061eaf90
+  # url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  # FIXME:
+  # The above url did not work for version 9.4.
+  # If it works in future it should be used in preference to the GitHub archive url below.
+  url: https://github.com/facelessuser/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
+  sha256: bb7dad544652b3c98a3318c94609e8f3226d42b63e667d594c545d9eba9bf83f
 
 build:
   number: 0
@@ -17,10 +21,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
+    - hatchling >=0.21.1
   run:
     - markdown >=3.2
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
