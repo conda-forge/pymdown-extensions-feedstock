@@ -1,11 +1,11 @@
-About pymdown-extensions
-========================
+About pymdown-extensions-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymdown-extensions-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/facelessuser/pymdown-extensions
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymdown-extensions-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extension pack for Python Markdown.
 
