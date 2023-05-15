@@ -14,7 +14,7 @@ source:
   sha256: a2b2e66138e940bce0ba216bad18c407d78b92232bd0cf71caf0f4950bcd8c73
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
@@ -24,8 +24,9 @@ requirements:
     - python >=3.7
     - hatchling >=0.21.1
   run:
-    - markdown >=3.2
     - python >=3.7
+    - markdown >=3.2
+    - pyyaml
 
 test:
   imports:
