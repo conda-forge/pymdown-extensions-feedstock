@@ -1,5 +1,5 @@
 {% set name = "pymdown-extensions" %}
-{% set version = "9.11" %}
+{% set version = "10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   # The above url did not work for version 9.4.
   # If it works in future it should be used in preference to the GitHub archive url below.
   url: https://github.com/facelessuser/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 2004817f461cd4cead86ef1a1e218b87eb750629df61d2446cbd3a6a75ff7ef1
+  sha256: a2b2e66138e940bce0ba216bad18c407d78b92232bd0cf71caf0f4950bcd8c73
 
 build:
   number: 0
