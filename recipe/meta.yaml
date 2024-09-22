@@ -14,17 +14,17 @@ source:
   sha256: 26bc6b18189dcc69dedf6ec19ba351c7ab52ba3de568a59d7578a445aaa1698f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - hatchling >=0.21.1
   run:
-    - python >=3.7
+    - python >=3.8
     - markdown >=3.6
     - pyyaml
 
