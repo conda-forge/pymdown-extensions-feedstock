@@ -1,17 +1,13 @@
 {% set name = "pymdown-extensions" %}
-{% set version = "10.21.1" %}
+{% set version = "10.20.1" %}
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
-  # url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  # FIXME:
-  # The above url did not work for version 9.4.
-  # If it works in future it should be used in preference to the GitHub archive url below.
-  url: https://github.com/facelessuser/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: dbd7960ad724c062f4de72013e3c83a1170e49d084525c3d7eeed5fef3a013d9
+  url: https://pypi.org/packages/source/p/pymdown_extensions/pymdown_extensions-{{ version }}.tar.gz
+  sha256: e7e39c865727338d434b55f1dd8da51febcffcaebd6e1a0b9c836243f660740a
 
 build:
   number: 0
