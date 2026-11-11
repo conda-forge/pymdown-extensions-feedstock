@@ -1,5 +1,5 @@
 {% set name = "pymdown-extensions" %}
-{% set version = "13.0" %}
+{% set version = "13.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/p/pymdown_extensions/pymdown_extensions-{{ version }}.tar.gz
-  sha256: 092524bea4fb3e62891204495de9e56b98603912df167ddd90d4f91bf2cd0414
+  sha256: e1ecec373677483b7324a47e5b4bf2e0c6614fe8dcdab1dcc6a05ecefd9b527d
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - hatchling >=0.21.1
   run:
     - python >={{ python_min }}
-    - markdown >=3.6
+    - markdown >=3.10.3
     - pyyaml
 
 test:
