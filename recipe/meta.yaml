@@ -1,5 +1,5 @@
 {% set name = "pymdown-extensions" %}
-{% set version = "13.1.1" %}
+{% set version = "13.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/p/pymdown_extensions/pymdown_extensions-{{ version }}.tar.gz
-  sha256: 975384d42127906a014ed0770ab7d5b0d747a24f2635b9eba8571791455781d3
+  sha256: 724701395585d027fb18a6ad3377636570bac4f2917ed809f06cbc811d7e60bb
 
 build:
   number: 0
